@@ -1,0 +1,46 @@
+[build-system]
+build-backend = "mesonpy"
+requires = ["meson-python>=0.17", "numpy>=2.0"]
+
+[project]
+name = "edgerpy"
+version = "0.1.0"
+description = "edgeR v4 quasi-likelihood pipelines (NB, binomial, diffSplice) for Python, running edgeR's own C code"
+readme = "README.md"
+requires-python = ">=3.13"
+license = "GPL-2.0-or-later"
+license-files = ["LICENSE", "LICENSE-LAPACK", "NOTICE.md"]
+authors = [
+    { name = "Lizhong Chen" },
+    { name = "Gordon Smyth" },
+]
+keywords = ["edgeR", "RNA-seq", "differential expression", "quasi-likelihood", "bioinformatics"]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Science/Research",
+    "Topic :: Scientific/Engineering :: Bio-Informatics",
+    "Operating System :: POSIX :: Linux",
+    "Operating System :: MacOS",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.13",
+    "Programming Language :: C",
+    "Programming Language :: Fortran",
+]
+dependencies = ["numpy>=2.0", "pandas>=2.2", "matplotlib>=3.8"]
+
+# [project.urls]   (to be filled in when the GitHub repository exists)
+# Homepage = "https://github.com/<account>/edgerpy"
+# Issues = "https://github.com/<account>/edgerpy/issues"
+
+[project.optional-dependencies]
+kallisto = ["h5py>=3.10"]
+oarfish = ["pyarrow>=14"]
+test = ["pytest", "h5py>=3.10", "pyarrow>=14"]
+
+[tool.meson-python.args]
+# every compile flag is set explicitly in meson.build (reference build flags)
+setup = ["-Dbuildtype=plain", "-Db_ndebug=false"]
+
+[tool.pytest.ini_options]
+# keep the source tree free of .pytest_cache
+addopts = "-p no:cacheprovider"

@@ -1,0 +1,37 @@
+cff-version: 1.2.0
+message: "If you use edgerpy, please cite it and the edgeR v4 paper below."
+type: software
+title: "edgerpy: the edgeR v4 quasi-likelihood pipelines for Python"
+version: 0.1.0
+license: GPL-2.0-or-later
+authors:
+  - given-names: Lizhong
+    family-names: Chen
+  - given-names: Gordon
+    family-names: Smyth
+# repository-code: "https://github.com/<account>/edgerpy"   (to be filled in)
+keywords:
+  - edgeR
+  - RNA-seq
+  - differential expression
+  - quasi-likelihood
+references:
+  - type: article
+    title: "edgeR v4: powerful differential analysis of sequencing data with expanded functionality and improved support for small counts and larger datasets"
+    authors:
+      - given-names: Yunshun
+        family-names: Chen
+      - given-names: Lizhong
+        family-names: Chen
+      - given-names: Aaron T L
+        family-names: Lun
+      - given-names: Pedro
+        family-names: Baldoni
+      - given-names: Gordon K
+        family-names: Smyth
+    year: 2025
+    journal: "Nucleic Acids Research"
+    volume: 53
+    issue: 2
+    start: gkaf018
+    doi: 10.1093/nar/gkaf018

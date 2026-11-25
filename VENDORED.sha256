@@ -1,0 +1,252 @@
+# edgerpy vendored sources. kind: copy (byte-identical), patched (#include lines only;
+# body_sha256 = sha256 without #include lines, equal to upstream), excerpt (verbatim line
+# ranges), generated (header assembled from the 'block' rows below it).
+# path	kind	group	origin	upstream	upstream_sha256	body_sha256	copy_sha256
+c/glm.c	patched	pkg-c	edgeR 4.99.12	edgeR/src/glm.c	17c71c53cc7c8e47f6b063e3837f0445d14c059fa670cdff167d067eccadaab9	faae7735c4dd261d837c555fa4a9db0b99b6d152ebc2f98045e835d843e36b25	6f9cd11befeb1eeac589988819a4fd054c57a1006e1da3d6592a3e31a2ac0613
+c/ftest.c	patched	pkg-c	edgeR 4.99.12	edgeR/src/ftest.c	5ab78ca123d6433b0c0922559f12c441ed79c0df5842b52b80111f9298861366	ef4524b9c88712d56477ad6c5387cfda482dcc0aa3dee9ee4cc0f73b12ad7651	ec1bb156f6199d8d2cd8aa2cf48fa04954bd705483b0ea8fee6fe174a87f196d
+c/ql_glm.c	patched	pkg-c	edgeR 4.99.12	edgeR/src/ql_glm.c	791487a0860b618fa8691f19721f49b66838f30d0791cf548f3c14822b59b8ad	3826aaad216936745b3fe4bdf9868a07e2a28a5d015eb1e9aefd5fe6761822c3	ff30c7d5366d735e63d66d6943e514006c7b2a37cef5b39f0fdcf224816c425b
+c/ql_bin.c	patched	pkg-c	edgeR 4.99.12	edgeR/src/ql_bin.c	dddc34a18c6d4a4d3965e45c15c244c7183acd10c9b1303beca446430c2b2d1a	4d8be9c38e44873baf1f7f2f83f56b283371752fe9629036b44186454e5351d2	7971a8296ad2b9e3e4fd9f954cfa045002645ca8fca04c83c39e1d7a6840cacb
+c/ql_weights.c	patched	pkg-c	edgeR 4.99.12	edgeR/src/ql_weights.c	64ff1f6f189adff4d11c729b085e22366772a771910b926e459c50c5000712ca	f6fc6e6ba92dd84489df79fbe2b44294685259676363015ba2a1cecc482fd6a7	4b1485fd969ff8d4760a4d2ff1a1b8819d2068676672b89bea7b09000955d39f
+c/binomial.c	patched	pkg-c	edgeR 4.99.12	edgeR/src/binomial.c	8b805a898b5cb3002305429e5b8601aebead8ff662d5565ee3950df19ebc6a3c	08b1d272d714f51a0966805d077782f1ed89f8758ba83327d567655ab7bfac66	38f2b96fd80f66459208c0001978f6ac50129309007971223c3006c3836fc6ea
+c/diffsplice.c	patched	pkg-c	edgeR 4.99.12	edgeR/src/diffsplice.c	f6cdfbf5a5f141b0fd1da42317cf10f6c425fbf7c5d51fef4b3074fb0aea02a2	75df40c25f74dcd90ded6225678dd10d8a4bd26a319234132fa976c088d2946f	bb9f8534055725cdc9a51960bed964078e72d42dddc7c6369d8ad25f46b48790
+c/coxreid.c	patched	pkg-c	edgeR 4.99.12	edgeR/src/coxreid.c	94f7714bf1cf850842d4e870773ababff34e98cd7e5538e97e7fae77f933142f	6df7cc6c794ebf9873fb4206c6e10043ae33265afc29fab6f9d46d41c451e714	6b8068d82fa646143cc22114470e816e85830037ed82371180ba91b3edbfea84
+c/compute_apl.c	patched	pkg-c	edgeR 4.99.12	edgeR/src/compute_apl.c	9ad56b07e26db2e76f7fe7f20db237b0c2c532c83ab8683eced0c1eb89a99a86	43ffa6018140f4d1a2702541e3ea874188010c3d4f6ff432d7eff2e7c719571f	65eb87f45fa133ebd49327ef143d59f455fa54b3a688c670ad1176439887c9a7
+c/compute_cpm.c	patched	pkg-c	edgeR 4.99.12	edgeR/src/compute_cpm.c	1291d75055e18299a436c4474225f5d1f73556a7ddb149a0b6c94f9e20d723fd	8be2910d5c37ff897e9475291fc7d9aedcdeb380e9304f138bf5fe122ddde458	120f6b7ea0c31164a96034a912f541916de298e8a26166a24f527bad0382edb7
+c/compute_nbdev.c	patched	pkg-c	edgeR 4.99.12	edgeR/src/compute_nbdev.c	513913185e3a9d9a1d533e4639d1edb700d63d7accff8232af136c825c16714f	0749893ba0a13341d6c53beb6900fe071803864b33dff4c938d530690aa5fbe5	3de31f522163ebff5a115da920c174a265288664a4f3a2f52ae1316726027216
+c/add_prior_count.c	patched	pkg-c	edgeR 4.99.12	edgeR/src/add_prior_count.c	b67fba7c616d33b5986009bb77120f9349c688f1c3f6e41b6473719a3c58d4fe	323ab0290ef687fdacb35244234d0de432d51dca8456f7d2a85dd51a679e32e1	38fbeba11eb73fe750f1f6d906ab6af709566d4a41a54d055e8d66b0ceaa3aa5
+c/pred_fc.c	patched	pkg-c	edgeR 4.99.12	edgeR/src/pred_fc.c	9352edb53278c2ccc4d08b1c8412f323c56b9883dbce7856f31c90f5d8bc469f	add1a5f1e8dfe774cf1441cc8c39b4a38a26adfe29c154836c916951c4813685	1482da31dc88ad60d0a42574474c4df623ecdcd9306476acc8ff4bba122fad39
+c/interpolator.c	patched	pkg-c	edgeR 4.99.12	edgeR/src/interpolator.c	a11c4b7cd172d0f47ccabf1bb83a2c190185f6b05fac7c7d93433893bf263dc6	0745b9f59b62784a1135ba2a8fb33703246182c1bd87ff6bab96c55708f53d3a	e0933c7e79b065ea92707b834206176738db37290115cec01872aaaace3f47de
+c/utils.c	patched	pkg-c	edgeR 4.99.12	edgeR/src/utils.c	f63eb560986e93c01e0483dada4040659c997c5143bfeec7d2d5cddd1096e919	ef9a081b851c978fd4617d159ac791a1e3809b0ab74c32de37b547e043c17ca1	f84cc38d30da1c547c3c1fd456c83b202dcba5a27edc55fa0e2814a9953a1495
+c/object.c	patched	pkg-c	edgeR 4.99.12	edgeR/src/object.c	c6497c2618201834d75690b058888559547fa475a1adf44dc0927d059aa97b60	3f35fa38e7b5bda30c866ec13c495b3d8391370775d6d7c1650f46b1d34f3f9e	aefbcc2ab90c80836afda94cf860def782b1eff385cc54f8a61cdbcb95b1c4e5
+c/locfit_lite.c	patched	pkg-c	edgeR 4.99.12	edgeR/src/locfit_lite.c	a458df9ca19cc94db2576a9ec0dbd67cb983d8aac3ef5ea7cbd622b9858b3879	06de0515a9b53eb1a6acea610e49171615d20832883fa9154a7f019fb83030e9	d1b72ac205126b49fdd7ba714d0746ed63f1159112da454862dcd8ef404aa1e2
+c/ql_weights_tables.c	patched	pkg-c	edgeR 4.99.12	edgeR/src/ql_weights_tables.c	044281d99e698420aedac20022ee530e44ed542cf98ee72b38a1fdecc864cd0d	b4a8a56cc6e0cb4c76bed030f9392c9a077ac560e88655de6e774458d488392c	76ebecc816705c42d729ca7d59d16473188960f1c2b2adc3ed649dd1b4023aae
+c/sample_weights.c	patched	pkg-c	edgeR 4.99.12	edgeR/src/sample_weights.c	903a4e3b43172993bbf3fe36452c5db9b0171f57c77c98accd4bc1ee6cb0be3a	831d9f34b99b01d610d38f988799bb517efe5b4ffdb318b563c597cd995ba6ac	e4e62780dc4e4ba77af82eb94e9826a0d516eae3b78cfba12cd9d08c12c155e0
+c/weighted_lowess.c	patched	pkg-c	limma 3.99.1	limma/src/weighted_lowess.c	043672673c1a8865d265a1264ace40ded0328bafd6f2e40a33f75676939c9f46	fd38c6ad471a5636955da9c0b9376c3edfa6214ed6d55ad9792d7982dd3eac54	ec41945f9c6b3e927b4bde37f8ebd0b1b439ea217c5d1c692b9f5803299b7293
+c/nmath/bd0.c	copy	r-core-c	R 4.6.1 nmath	R-4.6.1/src/nmath/bd0.c	550aa20e1ba3d90f709e554b540859e0f860cb38189c2cb9c219c32d1f039e8d	f4624edd5299213910a03913c097924e5492886a1eae304cc2cbb54737aedda7	550aa20e1ba3d90f709e554b540859e0f860cb38189c2cb9c219c32d1f039e8d
+c/nmath/chebyshev.c	copy	r-core-c	R 4.6.1 nmath	R-4.6.1/src/nmath/chebyshev.c	3eb2d6dbee5d64dead36c3708c779e281ce3db8caa04d387389f7161c2e65dc4	d25d5f530015a2331ee8cd05c902e48d26fd4f04f2cf2cb4de86788a00afe8a8	3eb2d6dbee5d64dead36c3708c779e281ce3db8caa04d387389f7161c2e65dc4
+c/nmath/cospi.c	copy	r-core-c	R 4.6.1 nmath	R-4.6.1/src/nmath/cospi.c	3f406615ccc8a6fba8545876b21f8d6d0585d202005ae40d958aeb0becda9c3d	4f855843a93c0846880a6e699dad8677bfbf605ae57c7a6f37f1454de991e5f0	3f406615ccc8a6fba8545876b21f8d6d0585d202005ae40d958aeb0becda9c3d
+c/nmath/d1mach.c	copy	r-core-c	R 4.6.1 nmath	R-4.6.1/src/nmath/d1mach.c	a21beba2a50e4c87c3116a31154222ae976a0824bd668806246f3ec4a4a26314	1798d7ec0597f8a85973b0825ae13466fe516601099701c3c96b7448d0936435	a21beba2a50e4c87c3116a31154222ae976a0824bd668806246f3ec4a4a26314
+c/nmath/dgamma.c	patched	r-core-c	R 4.6.1 nmath	R-4.6.1/src/nmath/dgamma.c	c169e17229af43996849d1e2ab466d87041ab3410ecc4f3e06869d69a05687fc	ae0894be2fa1e8ece91c7136766838e6f81ca50b55de6787f3d1054b900bf741	136cacc06ea63f43cc57e71522fdd290906436f6053a8fe8f67f436ac43e2b6b
+c/nmath/dnorm.c	patched	r-core-c	R 4.6.1 nmath	R-4.6.1/src/nmath/dnorm.c	c58a286891465f3260ac0d7da36710fdc46b57219e7dc70542e0f95379b7f495	042fde13796e4926345c6a2ef320f31fddaec38609922d93856be0ac59f87146	a310c244c1b2ab1f4d98a9911e28345b981dcf3650a64eca4dd3eb0452839188
+c/nmath/dpois.c	patched	r-core-c	R 4.6.1 nmath	R-4.6.1/src/nmath/dpois.c	a59ca7b10dbd515f4f311752477e7124a5d31375f8d3a23ff088f3ad07ddc412	cf6ba31fb57ad13f27a9b7ab5d6e7c4103349bd2761c4826d1861c1a76e9b0a1	521497c97bef6f11ed3ef18acf8870322748ad6be69974d0876abf8053dcd9b1
+c/nmath/fmax2.c	copy	r-core-c	R 4.6.1 nmath	R-4.6.1/src/nmath/fmax2.c	407a4dcc60c47132482a9fbd0d99830e6fa848a1cd6fed6af456da1f0f8cde50	b466d48e7d010b6de0ea0efa3776dbbfbacf54ecbfa0394e5e06dcb4bf263afc	407a4dcc60c47132482a9fbd0d99830e6fa848a1cd6fed6af456da1f0f8cde50
+c/nmath/fmin2.c	copy	r-core-c	R 4.6.1 nmath	R-4.6.1/src/nmath/fmin2.c	8b905f07c18fae0c8940e8e281d2562bfd8b4e6ab5e77db32e0c378bff05ffbb	eee63b4c70ad2e80eab4267236dde9d8bf9a21efe00b4dfeb05bee956f6d8847	8b905f07c18fae0c8940e8e281d2562bfd8b4e6ab5e77db32e0c378bff05ffbb
+c/nmath/gamma.c	copy	r-core-c	R 4.6.1 nmath	R-4.6.1/src/nmath/gamma.c	ddd34482a257a9ae9c5adabf8d5cc8e0c20d89c62831022d7d7569e281d51860	833cfa4e3273f550e4c2d0cb7fc2bb735aabb2a50eb69ea336148624babf4aa4	ddd34482a257a9ae9c5adabf8d5cc8e0c20d89c62831022d7d7569e281d51860
+c/nmath/i1mach.c	copy	r-core-c	R 4.6.1 nmath	R-4.6.1/src/nmath/i1mach.c	93edba16d8b424901d1c0104e624f790ad044984a3ae9186c9f7e2003b5f04e9	3d535c07f5874383e9019f38850de85433a6295eb225857c60a0d00ac0ff4804	93edba16d8b424901d1c0104e624f790ad044984a3ae9186c9f7e2003b5f04e9
+c/nmath/imax2.c	copy	r-core-c	R 4.6.1 nmath	R-4.6.1/src/nmath/imax2.c	6fb793c90419af663d95300e872c6830ea0942230e5ec747dd724dfffe816534	ed47820b77cbffef97bf97656821dce37332e8517078b06b4dcbbfb1cbc43ab5	6fb793c90419af663d95300e872c6830ea0942230e5ec747dd724dfffe816534
+c/nmath/imin2.c	copy	r-core-c	R 4.6.1 nmath	R-4.6.1/src/nmath/imin2.c	2d05d8f6fafb9561a26cd6abd174e2b16b50916a9e252c47c1b770ab1c385c04	cbe9fcf46e4c6ff0a5634b7ddb32d5c703f088e7fde5dad814bbde8e98ff7330	2d05d8f6fafb9561a26cd6abd174e2b16b50916a9e252c47c1b770ab1c385c04
+c/nmath/lbeta.c	copy	r-core-c	R 4.6.1 nmath	R-4.6.1/src/nmath/lbeta.c	d26cf51440c6204dbae653efb486f75855ef1bb5022cb8c943a3668cd8e0e336	efebc03019482f6ddd396c3cc7f65b28b55e013d8d4202d67eb21a1bf6597c63	d26cf51440c6204dbae653efb486f75855ef1bb5022cb8c943a3668cd8e0e336
+c/nmath/lgamma.c	copy	r-core-c	R 4.6.1 nmath	R-4.6.1/src/nmath/lgamma.c	256f59c79349bd3a6da7c217b9cee89fe2e4d2ac73fe16ccd9c4da908af6efc9	5ddc35aeb46d632d91a00e5ba2c4c21b36557ba29b47461922781971059a68fc	256f59c79349bd3a6da7c217b9cee89fe2e4d2ac73fe16ccd9c4da908af6efc9
+c/nmath/lgammacor.c	copy	r-core-c	R 4.6.1 nmath	R-4.6.1/src/nmath/lgammacor.c	afb4b8aff8c1fa1d127ca2842232fddae5ac597c85b8f8c0147b28a27173a50d	6ffdd3e18a538cee86f2c3f1d966655a1510f38acbfcff4eff7b06c5f73e2965	afb4b8aff8c1fa1d127ca2842232fddae5ac597c85b8f8c0147b28a27173a50d
+c/nmath/pbeta.c	patched	r-core-c	R 4.6.1 nmath	R-4.6.1/src/nmath/pbeta.c	395209b7e7987d52998876b2669f2b9af09986f3b57732c24a1916e774556c5f	367ed265d74c8b7577f8cccab9f09fdc24282e5718d5ba12139942ecb6ffedcb	fd0a0b2808cea6c6c2b94d75f2563e6635dacb0480e12bc070f0f57ee1074ae6
+c/nmath/pchisq.c	patched	r-core-c	R 4.6.1 nmath	R-4.6.1/src/nmath/pchisq.c	2e15ffba0637837b57f33a65740d6b1fbe1f749b6117a79269937965ef3ab532	a24e6cb4cc3bec8e657624b894541a65dceaa886673a8cfd5bd4ce0debc15f14	562971156ad7e8007bb246d9b3d13c270ce98aed95d86e8ab17db5234a35cb06
+c/nmath/pf.c	patched	r-core-c	R 4.6.1 nmath	R-4.6.1/src/nmath/pf.c	54975a8c1aaa5a18cee659d0c9dbdfe3cb2305509cea1671ca6316e302b52d3b	ab776ec1b227ad48c2ca69451eaf4a4d2e4b915b4f99609f75f6fc3af127a3fd	bc3107a5c3f69bf0b91f012ecc8bca1d8c88a3c0790f77f1997957398a4089e5
+c/nmath/pgamma.c	patched	r-core-c	R 4.6.1 nmath	R-4.6.1/src/nmath/pgamma.c	68c75e333a6979a1edffad17ab99263f0d1725bb0f0fad4a224dd6402942a262	8e49cef520890f904163e17c64c2acb87f2f1487b4777717cf8229c515b3f738	a9c40b7f8f7b4d5ad61570b26b4d494408eb05759e56c3b1adfe6f2b6cef588d
+c/nmath/pnorm.c	patched	r-core-c	R 4.6.1 nmath	R-4.6.1/src/nmath/pnorm.c	01d86add6dd5c272852559603f11ae504533c2b4a798d2be5cc88027e7a4c873	c05e8c25ae36c2c739407f652a645ae18705bf3a995f1cc2878588de06911e9d	05e43aad95f9dd114d6f44fd763a27e0cd08358510d66e2500137b54a4018d73
+c/nmath/polygamma.c	copy	r-core-c	R 4.6.1 nmath	R-4.6.1/src/nmath/polygamma.c	a869ec1b14cf75a699d538d385b78e79adb38de259d03e1ddfef22b12105f94f	54b811ffcc320b7838c4e8592a0f9fc790a01b8b9682ef0b449c1b1410bcf007	a869ec1b14cf75a699d538d385b78e79adb38de259d03e1ddfef22b12105f94f
+c/nmath/qbeta.c	patched	r-core-c	R 4.6.1 nmath	R-4.6.1/src/nmath/qbeta.c	78bb26cd99f549d6ed69baf21580ec63c52375bf14cc581505bba6a9af74bb68	53818cbb557d811ced3eb639e8908e5b5023051605f60f4976a1ffd035f8639c	7e34ee61a9fc3a8b0994835c8ae84cb6f19bcab16c95eb12f48c1c0abb658f49
+c/nmath/qchisq.c	patched	r-core-c	R 4.6.1 nmath	R-4.6.1/src/nmath/qchisq.c	974cff934c63f819d5ac10bec6f5f424b43bbf0c7c2b8683bec9bf81487fbc3e	6f0b00038b25f42f53feee98c7c7437f8d20553faa2d8c9ce7782d8a82719a46	047d9e503434eef05b32ddca09aa74a576c8a0116fcdb85cd0d0729b08003ec0
+c/nmath/qf.c	patched	r-core-c	R 4.6.1 nmath	R-4.6.1/src/nmath/qf.c	c12c557a72bff3b69178f84961ef2a09cbd67f763ed417859c614a919181733c	d12cf9cd58a94752d9f1d1d3c7d99f7610b07df375a99d20d2d0fc52b5e63a95	643ad8e4eeba417586a46ab9eccac39f195b55388f9efc61c9e1e304996a1154
+c/nmath/qgamma.c	patched	r-core-c	R 4.6.1 nmath	R-4.6.1/src/nmath/qgamma.c	ada0724ca48ad67348e12e0a665a045636c4787d80757b8989fb6b7b37ea5698	ddae5fe295123319b7e5d9a8d8e361535971faa7b2ee900bf8a3c1c08c27e5d9	6c29c2b416f8f9982fbdc4dcf083e77c1eb8318a62a4bd8a204ae1e1937834e5
+c/nmath/qnorm.c	patched	r-core-c	R 4.6.1 nmath	R-4.6.1/src/nmath/qnorm.c	c38699b57a332eebd4989e810d3572d5c906e8135685835b6091cd60320e016e	646c636cf5b12f027a377a54e87816364a27daa3a22ccf0d882272feed3389d5	18c9e3363b7e202c6af038531abd495ab09d1ff812078977dfa69b944a5e0b77
+c/nmath/stirlerr.c	copy	r-core-c	R 4.6.1 nmath	R-4.6.1/src/nmath/stirlerr.c	e62848cfccfb63aa232564b941d41ec039243621c62dab40a200c768a57df334	d714303797219d2c29ecd014130e1cd23f689a07de55ce94524e1e3ffc78ae0f	e62848cfccfb63aa232564b941d41ec039243621c62dab40a200c768a57df334
+c/nmath/toms708.c	patched	r-core-c	R 4.6.1 nmath	R-4.6.1/src/nmath/toms708.c	cbc22f992ac89e5c69be68d206f9855668a60e3572af479613bd324f8d9cd56c	ea1fa7327a63ee572852f6d7efe7fa2081712e7804bceb09d96ac9008b9b7bbd	44212985f57be1a9e68fe094a2c32d39393b750d96cffdf4759b939b9fe8fe84
+c/arith_subset.c	excerpt	r-core-c	R 4.6.1 src/main	R-4.6.1/src/main/arithmetic.c:65-274	438417fd741fef6d3045d87efdfe36486d57fa45ef5b35f226e4afb8680afd8f	-	a448a9f81f012d702e43dc2f36e0924a931346ff4529f7d11c6ab99c7c042502
+c/sort_subset.c	excerpt	r-core-c	R 4.6.1 src/main	R-4.6.1/src/main/sort.c:45-54,343-357,668-681,692-698,724-727	8ef0cf0b61e60bef78e9e25ff80ca1e7fcaf4e86f48b87c39e2a796f274d1b90	-	412525bd28bd881a2b104556b4cedad628f753c2a0fe97036ce36a5200bfa99a
+c/pretty_subset.c	excerpt	r-core-c	R 4.6.1 appl	R-4.6.1/src/appl/pretty.c:75-270	10628fb7b1890002cf1e1a788ded8998612643b1cf3006f4aaf9d9823353b05b	-	9ddb24209a5ab700e99a709498660a2fdad4f8997cc54e3f18681059d939c631
+c/engine_subset.c	excerpt	r-core-c	R 4.6.1 src/main	R-4.6.1/src/main/engine.c:2453-2513	f2730e36518964923950cee8e01551300ccbc4598f704ffc1a3f0123faffb8ec	-	f88696657d4970cf4f164bc8c0f472a2f0be97e34541121f238eb93caacf3e1e
+c/qsort_subset.c	excerpt	r-core-c	R 4.6.1 src/main	R-4.6.1/src/main/qsort.c:130-137	f5c4b6f7727256bf128a51c19b56ff0fbaa5583b3a7d1b9b2d0de49365cf33fb	-	85381547f3bddd6f0d717bb9aba771cc5aa9cc3d98e214353f1e0514d3dad592
+c/qsort-body.c	copy	include-only	R 4.6.1 src/main	R-4.6.1/src/main/qsort-body.c	5fa898a4bf0c94a261256d4427fd7380336ea939145d6a0c847efe5dd8651b65	-	5fa898a4bf0c94a261256d4427fd7380336ea939145d6a0c847efe5dd8651b65
+c/arith_math1.inc	excerpt	include-only	R 4.6.1 src/main	R-4.6.1/src/main/arithmetic.h:41-43,50-59;R-4.6.1/src/main/arithmetic.c:1291-1327	-	-	d6cd249074e8a0692c88678ead605bc2f4ebccc971281480602648c9565ebe1b
+c/stats_lowess.inc	excerpt	include-only	R 4.6.1 stats	R-4.6.1/src/library/stats/src/lowess.c:36-278	-	-	da45ed485243970769aee192e9642dfebc26471fc64b0602cd3e5962fa21ad89
+c/array_matprod.inc	excerpt	include-only	R 4.6.1 src/main	R-4.6.1/src/main/array.c:643-662,714-728,730-735	-	-	e151bcf44d5a7722721fc26265b0fc035370cdb735263aa2b949d44df9520979
+fortran/lowess.f	copy	r-f	edgeR 4.99.12	edgeR/src/lowess.f	ccc34b16374927cb5346d3ac5ac5ef718ed9797c7e1b0c52edc5d579f2d4233a	-	ccc34b16374927cb5346d3ac5ac5ef718ed9797c7e1b0c52edc5d579f2d4233a
+fortran/spline.f	copy	r-f	edgeR 4.99.12	edgeR/src/spline.f	f2a00372acc5f9b26aa50f7de5741df216cca1130d422f2f218973f5122eb98e	-	f2a00372acc5f9b26aa50f7de5741df216cca1130d422f2f218973f5122eb98e
+fortran/linpack/dqrls.f	copy	r-f	R 4.6.1 appl	R-4.6.1/src/appl/dqrls.f	fb7526af3a806d12dc25f0a59600ade307437cecb18f7084bb1d22e7e28ae64e	-	fb7526af3a806d12dc25f0a59600ade307437cecb18f7084bb1d22e7e28ae64e
+fortran/linpack/dqrdc2.f	copy	r-f	R 4.6.1 appl	R-4.6.1/src/appl/dqrdc2.f	8eda625e983c5a653cc0418dec8370b65af326e973ddc49c64cfc45911e901cb	-	8eda625e983c5a653cc0418dec8370b65af326e973ddc49c64cfc45911e901cb
+fortran/linpack/dqrsl.f	copy	r-f	R 4.6.1 appl	R-4.6.1/src/appl/dqrsl.f	a47f21b8b2928c7359b8745ce602ac27b154f4fe9e1f0587024bcb81984ec9db	-	a47f21b8b2928c7359b8745ce602ac27b154f4fe9e1f0587024bcb81984ec9db
+fortran/linpack/dqrutl.f	copy	r-f	R 4.6.1 appl	R-4.6.1/src/appl/dqrutl.f	9961803883725cf2ea8820666be89af5a799c4623a5926164f69f6f03168b26b	-	9961803883725cf2ea8820666be89af5a799c4623a5926164f69f6f03168b26b
+fortran/blas/daxpy.f	copy	lapack-f	Netlib LAPACK 3.12.1	lapack-3.12.1/BLAS/SRC/daxpy.f	6d978fe749ad22249d05a230b9c0ba07e6afccbcc59b746f198e285487811af1	-	6d978fe749ad22249d05a230b9c0ba07e6afccbcc59b746f198e285487811af1
+fortran/blas/dcopy.f	copy	lapack-f	Netlib LAPACK 3.12.1	lapack-3.12.1/BLAS/SRC/dcopy.f	fc821bf4413f81d371f6678eb9888622008ed44819576cbc6d13fa66df3e1672	-	fc821bf4413f81d371f6678eb9888622008ed44819576cbc6d13fa66df3e1672
+fortran/blas/ddot.f	copy	lapack-f	Netlib LAPACK 3.12.1	lapack-3.12.1/BLAS/SRC/ddot.f	8983346c864ecb34ef9da011a5d141c68a7329d9bc71fceb5acf2c1949b5bb4f	-	8983346c864ecb34ef9da011a5d141c68a7329d9bc71fceb5acf2c1949b5bb4f
+fortran/blas/dgemm.f	copy	lapack-f	Netlib LAPACK 3.12.1	lapack-3.12.1/BLAS/SRC/dgemm.f	aa22f67c2c3ef9b0b0cf42fcd6c4080076948d5f4b8b4d982a78eb6e33f9e191	-	aa22f67c2c3ef9b0b0cf42fcd6c4080076948d5f4b8b4d982a78eb6e33f9e191
+fortran/blas/dgemmtr.f	copy	lapack-f	Netlib LAPACK 3.12.1	lapack-3.12.1/BLAS/SRC/dgemmtr.f	0ae43853e18124b4020742ec9a3304af919165af94a5fb51b3b454e6f75c03ff	-	0ae43853e18124b4020742ec9a3304af919165af94a5fb51b3b454e6f75c03ff
+fortran/blas/dgemv.f	copy	lapack-f	Netlib LAPACK 3.12.1	lapack-3.12.1/BLAS/SRC/dgemv.f	2320b9024e296f2a78882dd84c1b96be0af985dc177f2f373cb122f86f5d925d	-	2320b9024e296f2a78882dd84c1b96be0af985dc177f2f373cb122f86f5d925d
+fortran/blas/dger.f	copy	lapack-f	Netlib LAPACK 3.12.1	lapack-3.12.1/BLAS/SRC/dger.f	6da9a924d4eed5fca0ea42d34237c2ff8b75296ce17bcacfd2b9a829a9e47f4f	-	6da9a924d4eed5fca0ea42d34237c2ff8b75296ce17bcacfd2b9a829a9e47f4f
+fortran/blas/dnrm2.f90	copy	lapack-f	Netlib LAPACK 3.12.1	lapack-3.12.1/BLAS/SRC/dnrm2.f90	2a5bc5ec9ab8077da1f81e2169a3868df1629e39f36ba969ada1f491a3b94979	-	2a5bc5ec9ab8077da1f81e2169a3868df1629e39f36ba969ada1f491a3b94979
+fortran/blas/dscal.f	copy	lapack-f	Netlib LAPACK 3.12.1	lapack-3.12.1/BLAS/SRC/dscal.f	ea3794ad26c4f1dc852a52c0aee10edb25b0e7f0d12a61c91656144f139c221c	-	ea3794ad26c4f1dc852a52c0aee10edb25b0e7f0d12a61c91656144f139c221c
+fortran/blas/dswap.f	copy	lapack-f	Netlib LAPACK 3.12.1	lapack-3.12.1/BLAS/SRC/dswap.f	cb29b27f67c436340bfc6be497de96aa9ccfaf4a8ae4d7e63d7a7603fdc100ed	-	cb29b27f67c436340bfc6be497de96aa9ccfaf4a8ae4d7e63d7a7603fdc100ed
+fortran/blas/dsymv.f	copy	lapack-f	Netlib LAPACK 3.12.1	lapack-3.12.1/BLAS/SRC/dsymv.f	7b92e184a558dc2c36261bef29009c6614a33e59d4c1562b77ad7f9ccd827fa1	-	7b92e184a558dc2c36261bef29009c6614a33e59d4c1562b77ad7f9ccd827fa1
+fortran/blas/dsyr.f	copy	lapack-f	Netlib LAPACK 3.12.1	lapack-3.12.1/BLAS/SRC/dsyr.f	053c73674d7d20e855f7cf896eb51cf185251af66733b84575f319e1b42cbcdc	-	053c73674d7d20e855f7cf896eb51cf185251af66733b84575f319e1b42cbcdc
+fortran/blas/dsyr2.f	copy	lapack-f	Netlib LAPACK 3.12.1	lapack-3.12.1/BLAS/SRC/dsyr2.f	d2a1f05aca3763d1d6688bcd0631deb6f43cb908bae7db98fb4d1fa7438b8cdf	-	d2a1f05aca3763d1d6688bcd0631deb6f43cb908bae7db98fb4d1fa7438b8cdf
+fortran/blas/dsyr2k.f	copy	lapack-f	Netlib LAPACK 3.12.1	lapack-3.12.1/BLAS/SRC/dsyr2k.f	919b547652504bd1a183a3f3a51b9e4526d37c10f571b822978bc4901a20fd2d	-	919b547652504bd1a183a3f3a51b9e4526d37c10f571b822978bc4901a20fd2d
+fortran/blas/dsyrk.f	copy	lapack-f	Netlib LAPACK 3.12.1	lapack-3.12.1/BLAS/SRC/dsyrk.f	10f93a66d5cc91e10f7ad18a9ba4e142f2ff8206e99be51583e02bdb6a75cad2	-	10f93a66d5cc91e10f7ad18a9ba4e142f2ff8206e99be51583e02bdb6a75cad2
+fortran/blas/dtrmm.f	copy	lapack-f	Netlib LAPACK 3.12.1	lapack-3.12.1/BLAS/SRC/dtrmm.f	513df446fa739ebbf328f133b31f4b575ffc61143c770e8badfb71007e9296a1	-	513df446fa739ebbf328f133b31f4b575ffc61143c770e8badfb71007e9296a1
+fortran/blas/dtrsm.f	copy	lapack-f	Netlib LAPACK 3.12.1	lapack-3.12.1/BLAS/SRC/dtrsm.f	08dd17ab70986fabda036ed11bcb1a0892cceeb69cd2c28d7dd0a37c49c1d560	-	08dd17ab70986fabda036ed11bcb1a0892cceeb69cd2c28d7dd0a37c49c1d560
+fortran/blas/idamax.f	copy	lapack-f	Netlib LAPACK 3.12.1	lapack-3.12.1/BLAS/SRC/idamax.f	05e6970ea232fceb382f20be73f222c2a83e9cd8872e930a210e7e208d5ca3e4	-	05e6970ea232fceb382f20be73f222c2a83e9cd8872e930a210e7e208d5ca3e4
+fortran/blas/lsame.f	copy	lapack-f	Netlib LAPACK 3.12.1	lapack-3.12.1/BLAS/SRC/lsame.f	c876ce7fb72a52c3875fb5de55348140bfc8ce5bb42c86a95d36f66d36ae2ed7	-	c876ce7fb72a52c3875fb5de55348140bfc8ce5bb42c86a95d36f66d36ae2ed7
+fortran/lapack/dlamch.f	copy	lapack-f-noopt	Netlib LAPACK 3.12.1	lapack-3.12.1/INSTALL/dlamch.f	d532bb8ee8e3b9ffe29bf91eba98f4a304dfb599009dc105279ba1e028b96db0	-	d532bb8ee8e3b9ffe29bf91eba98f4a304dfb599009dc105279ba1e028b96db0
+fortran/lapack/dgeqr2.f	copy	lapack-f	Netlib LAPACK 3.12.1	lapack-3.12.1/SRC/dgeqr2.f	49c9dcb928683767041f1434b308e5b7b27bbe84f4d573cb540140f4b8e234f8	-	49c9dcb928683767041f1434b308e5b7b27bbe84f4d573cb540140f4b8e234f8
+fortran/lapack/dgeqrf.f	copy	lapack-f	Netlib LAPACK 3.12.1	lapack-3.12.1/SRC/dgeqrf.f	8745948a18f9793b5c1c87f14727630bd8791a7a770e45fbc2a62be2cfad9a66	-	8745948a18f9793b5c1c87f14727630bd8791a7a770e45fbc2a62be2cfad9a66
+fortran/lapack/dgesv.f	copy	lapack-f	Netlib LAPACK 3.12.1	lapack-3.12.1/SRC/dgesv.f	0179d91ee67735647b427cfb2773648b1fdb17490b4b7d15c011a5d0d809bba4	-	0179d91ee67735647b427cfb2773648b1fdb17490b4b7d15c011a5d0d809bba4
+fortran/lapack/dgetrf.f	copy	lapack-f	Netlib LAPACK 3.12.1	lapack-3.12.1/SRC/dgetrf.f	5f3d37bbfc3c509708fc3c45bf62e55cfab73ea945de522e208c651175945ebc	-	5f3d37bbfc3c509708fc3c45bf62e55cfab73ea945de522e208c651175945ebc
+fortran/lapack/dgetrf2.f	copy	lapack-f	Netlib LAPACK 3.12.1	lapack-3.12.1/SRC/dgetrf2.f	b3431df86dc051eeef0b3fe753709eb5f5ff1747016173ce883b3923200c98a4	-	b3431df86dc051eeef0b3fe753709eb5f5ff1747016173ce883b3923200c98a4
+fortran/lapack/dgetrs.f	copy	lapack-f	Netlib LAPACK 3.12.1	lapack-3.12.1/SRC/dgetrs.f	171e13264833ac7ce9007015cb721eaba71d78400af45dd59db72635a5762318	-	171e13264833ac7ce9007015cb721eaba71d78400af45dd59db72635a5762318
+fortran/lapack/disnan.f	copy	lapack-f	Netlib LAPACK 3.12.1	lapack-3.12.1/SRC/disnan.f	781881a6f42e246bcf4d4fd588cf46a784c476e697659ae9019458097d15c897	-	781881a6f42e246bcf4d4fd588cf46a784c476e697659ae9019458097d15c897
+fortran/lapack/dlacpy.f	copy	lapack-f	Netlib LAPACK 3.12.1	lapack-3.12.1/SRC/dlacpy.f	00a07a6244d34435e247cb4b037dcf512d10c27177c8f96410d325e9554c7c18	-	00a07a6244d34435e247cb4b037dcf512d10c27177c8f96410d325e9554c7c18
+fortran/lapack/dlae2.f	copy	lapack-f	Netlib LAPACK 3.12.1	lapack-3.12.1/SRC/dlae2.f	77a4118c9698040e3ee8ce260690b5df3b3a5086c312db5a71e173f730435a27	-	77a4118c9698040e3ee8ce260690b5df3b3a5086c312db5a71e173f730435a27
+fortran/lapack/dlaebz.f	copy	lapack-f	Netlib LAPACK 3.12.1	lapack-3.12.1/SRC/dlaebz.f	71cac223dd9560f057623b06ac3085413f207368cd541cb29ad1c9f9ce117a88	-	71cac223dd9560f057623b06ac3085413f207368cd541cb29ad1c9f9ce117a88
+fortran/lapack/dlaev2.f	copy	lapack-f	Netlib LAPACK 3.12.1	lapack-3.12.1/SRC/dlaev2.f	d304ab646cc159ec22f3a77ef1bc4c79cf00ce76218278ab966aeae7f9b4e0d9	-	d304ab646cc159ec22f3a77ef1bc4c79cf00ce76218278ab966aeae7f9b4e0d9
+fortran/lapack/dlagtf.f	copy	lapack-f	Netlib LAPACK 3.12.1	lapack-3.12.1/SRC/dlagtf.f	1db5051de4537a264d2946bbfbc06f2df0b61fa5f9caccd8cc8922bf4cdd1719	-	1db5051de4537a264d2946bbfbc06f2df0b61fa5f9caccd8cc8922bf4cdd1719
+fortran/lapack/dlagts.f	copy	lapack-f	Netlib LAPACK 3.12.1	lapack-3.12.1/SRC/dlagts.f	c652cc5e1d644bf3b0f84a5864e64e20c1f371df21ae9f2f5581565abc9ff2e0	-	c652cc5e1d644bf3b0f84a5864e64e20c1f371df21ae9f2f5581565abc9ff2e0
+fortran/lapack/dlaisnan.f	copy	lapack-f	Netlib LAPACK 3.12.1	lapack-3.12.1/SRC/dlaisnan.f	2d704d97de2f31446e8615602e5e4d1d5fd7a688695b4c1775ffd9cedd0f230c	-	2d704d97de2f31446e8615602e5e4d1d5fd7a688695b4c1775ffd9cedd0f230c
+fortran/lapack/dlaneg.f	copy	lapack-f	Netlib LAPACK 3.12.1	lapack-3.12.1/SRC/dlaneg.f	f9dd70c97243748e90d9bd9ecb61a3a87cd049c3e65e7ff45f484952d64f0769	-	f9dd70c97243748e90d9bd9ecb61a3a87cd049c3e65e7ff45f484952d64f0769
+fortran/lapack/dlanst.f	copy	lapack-f	Netlib LAPACK 3.12.1	lapack-3.12.1/SRC/dlanst.f	59e578880b57bf3c140eedf4a483c3787ed011a6dfc96490cce4fcd52e0f4872	-	59e578880b57bf3c140eedf4a483c3787ed011a6dfc96490cce4fcd52e0f4872
+fortran/lapack/dlansy.f	copy	lapack-f	Netlib LAPACK 3.12.1	lapack-3.12.1/SRC/dlansy.f	4536c2ee50fec9dfb3b2c57960d42f60b82c76d74581a8c35b9b448eddf36ca5	-	4536c2ee50fec9dfb3b2c57960d42f60b82c76d74581a8c35b9b448eddf36ca5
+fortran/lapack/dlapy2.f	copy	lapack-f	Netlib LAPACK 3.12.1	lapack-3.12.1/SRC/dlapy2.f	274638b08ffe1c6f7bde140f6c9bf8bfab9087731c761f35a0b668f6d5251565	-	274638b08ffe1c6f7bde140f6c9bf8bfab9087731c761f35a0b668f6d5251565
+fortran/lapack/dlar1v.f	copy	lapack-f	Netlib LAPACK 3.12.1	lapack-3.12.1/SRC/dlar1v.f	b0a9d6ccc8f094adf4a510d04accb6168472445f9c504394376d3ca5bd8e68bb	-	b0a9d6ccc8f094adf4a510d04accb6168472445f9c504394376d3ca5bd8e68bb
+fortran/lapack/dlarf1f.f	copy	lapack-f	Netlib LAPACK 3.12.1	lapack-3.12.1/SRC/dlarf1f.f	a09860405adf9e56c42d51a107abc764b51367c3864102e83c0710d5cec48738	-	a09860405adf9e56c42d51a107abc764b51367c3864102e83c0710d5cec48738
+fortran/lapack/dlarf1l.f	copy	lapack-f	Netlib LAPACK 3.12.1	lapack-3.12.1/SRC/dlarf1l.f	aa82686d354f1114acf9b22d53dc04b54dc9e1d171f6269d20d02b04302fcc8c	-	aa82686d354f1114acf9b22d53dc04b54dc9e1d171f6269d20d02b04302fcc8c
+fortran/lapack/dlarfb.f	copy	lapack-f	Netlib LAPACK 3.12.1	lapack-3.12.1/SRC/dlarfb.f	b3fdbed7c1ae39e11f943e415d4a6ca5f14ef8726ee8fa685c4e015604b3012d	-	b3fdbed7c1ae39e11f943e415d4a6ca5f14ef8726ee8fa685c4e015604b3012d
+fortran/lapack/dlarfg.f	copy	lapack-f	Netlib LAPACK 3.12.1	lapack-3.12.1/SRC/dlarfg.f	2e6f99fe4c695860699362b5206f205952d598ffcb0e6ef62eb0f31954e311cb	-	2e6f99fe4c695860699362b5206f205952d598ffcb0e6ef62eb0f31954e311cb
+fortran/lapack/dlarft.f	copy	lapack-f	Netlib LAPACK 3.12.1	lapack-3.12.1/SRC/dlarft.f	4e18d394192878a594362abf6b3eab51f18101568836a807a7d80e5699f91196	-	4e18d394192878a594362abf6b3eab51f18101568836a807a7d80e5699f91196
+fortran/lapack/dlarnv.f	copy	lapack-f	Netlib LAPACK 3.12.1	lapack-3.12.1/SRC/dlarnv.f	9e16e50407da68da51e0c34f91dbbcf6ed52b8266a2e07d9e6ca49b0878fafa0	-	9e16e50407da68da51e0c34f91dbbcf6ed52b8266a2e07d9e6ca49b0878fafa0
+fortran/lapack/dlarra.f	copy	lapack-f	Netlib LAPACK 3.12.1	lapack-3.12.1/SRC/dlarra.f	e97f6199ee5329539678b73d7a28ccb3731000cc06634371b65741b58c2d7d24	-	e97f6199ee5329539678b73d7a28ccb3731000cc06634371b65741b58c2d7d24
+fortran/lapack/dlarrb.f	copy	lapack-f	Netlib LAPACK 3.12.1	lapack-3.12.1/SRC/dlarrb.f	fa3959ddde0eaff55d424870c40f561553063d1734eb913c8adc588d72964410	-	fa3959ddde0eaff55d424870c40f561553063d1734eb913c8adc588d72964410
+fortran/lapack/dlarrc.f	copy	lapack-f	Netlib LAPACK 3.12.1	lapack-3.12.1/SRC/dlarrc.f	90d16b82a8512bedb43d0b1d566b010b22fed4109bd6e988bf8561884a9a29bb	-	90d16b82a8512bedb43d0b1d566b010b22fed4109bd6e988bf8561884a9a29bb
+fortran/lapack/dlarrd.f	copy	lapack-f	Netlib LAPACK 3.12.1	lapack-3.12.1/SRC/dlarrd.f	87c14535a8060654822c8fa74e999d8159498d8574dc11372bda4b35dee399dd	-	87c14535a8060654822c8fa74e999d8159498d8574dc11372bda4b35dee399dd
+fortran/lapack/dlarre.f	copy	lapack-f	Netlib LAPACK 3.12.1	lapack-3.12.1/SRC/dlarre.f	fa6afc664f9534b5763ddfb755696aa674d826ac775eedb7c6c04001053a234b	-	fa6afc664f9534b5763ddfb755696aa674d826ac775eedb7c6c04001053a234b
+fortran/lapack/dlarrf.f	copy	lapack-f	Netlib LAPACK 3.12.1	lapack-3.12.1/SRC/dlarrf.f	b2fa50bce79114afedad98885e10915f323629d024c141b4b91ca3b6cd9014f5	-	b2fa50bce79114afedad98885e10915f323629d024c141b4b91ca3b6cd9014f5
+fortran/lapack/dlarrj.f	copy	lapack-f	Netlib LAPACK 3.12.1	lapack-3.12.1/SRC/dlarrj.f	651ea069e3ffd3ab9b9a0b68e82ca995df2de4e24fe268803b29402d36600cfa	-	651ea069e3ffd3ab9b9a0b68e82ca995df2de4e24fe268803b29402d36600cfa
+fortran/lapack/dlarrk.f	copy	lapack-f	Netlib LAPACK 3.12.1	lapack-3.12.1/SRC/dlarrk.f	8828321663883889ed4698b352a8bde00b53e3bf040d4cbefb090ecf864426b1	-	8828321663883889ed4698b352a8bde00b53e3bf040d4cbefb090ecf864426b1
+fortran/lapack/dlarrr.f	copy	lapack-f	Netlib LAPACK 3.12.1	lapack-3.12.1/SRC/dlarrr.f	875ef0bd6faaa0d7a84a16a6eebee8c0f28e42be2bd6d581a0c327c0a4de7c94	-	875ef0bd6faaa0d7a84a16a6eebee8c0f28e42be2bd6d581a0c327c0a4de7c94
+fortran/lapack/dlarrv.f	copy	lapack-f	Netlib LAPACK 3.12.1	lapack-3.12.1/SRC/dlarrv.f	b64d7f957fabb382dbbe2b8d8cf02370fa63f83cb064e139107d0a2ff077e333	-	b64d7f957fabb382dbbe2b8d8cf02370fa63f83cb064e139107d0a2ff077e333
+fortran/lapack/dlartg.f90	copy	lapack-f	Netlib LAPACK 3.12.1	lapack-3.12.1/SRC/dlartg.f90	c5fbb9c2035f0314933b47e4247dfd8f1944f671d7764be2cc8fb15439e4be0c	-	c5fbb9c2035f0314933b47e4247dfd8f1944f671d7764be2cc8fb15439e4be0c
+fortran/lapack/dlaruv.f	copy	lapack-f-noopt	Netlib LAPACK 3.12.1	lapack-3.12.1/SRC/dlaruv.f	64697c9ef1d53223db4759a0721acd70f94f1587aee595c4ae48955c6f714421	-	64697c9ef1d53223db4759a0721acd70f94f1587aee595c4ae48955c6f714421
+fortran/lapack/dlascl.f	copy	lapack-f	Netlib LAPACK 3.12.1	lapack-3.12.1/SRC/dlascl.f	cf80c113575e104256c0351e0b33eb2943bb7faede556dfa4617130792aa7920	-	cf80c113575e104256c0351e0b33eb2943bb7faede556dfa4617130792aa7920
+fortran/lapack/dlaset.f	copy	lapack-f	Netlib LAPACK 3.12.1	lapack-3.12.1/SRC/dlaset.f	85d603b4ace0f14d757548eb1f2eff8d51b4111b81a2a629c31606d4a8b7db73	-	85d603b4ace0f14d757548eb1f2eff8d51b4111b81a2a629c31606d4a8b7db73
+fortran/lapack/dlasq2.f	copy	lapack-f	Netlib LAPACK 3.12.1	lapack-3.12.1/SRC/dlasq2.f	4f4909a4d029c9c5ac569b330b0018b0d1cfcd99d38910c74751690083259ec1	-	4f4909a4d029c9c5ac569b330b0018b0d1cfcd99d38910c74751690083259ec1
+fortran/lapack/dlasq3.f	copy	lapack-f	Netlib LAPACK 3.12.1	lapack-3.12.1/SRC/dlasq3.f	1dd36122008ff131dc4e578cf17d6a7f0cb2ab1ef3dbaf7debc2b2d60603f85d	-	1dd36122008ff131dc4e578cf17d6a7f0cb2ab1ef3dbaf7debc2b2d60603f85d
+fortran/lapack/dlasq4.f	copy	lapack-f	Netlib LAPACK 3.12.1	lapack-3.12.1/SRC/dlasq4.f	a762c944bf358e63a4a79701346b4ba1dda9c44eeccaa3ac532879349674f87c	-	a762c944bf358e63a4a79701346b4ba1dda9c44eeccaa3ac532879349674f87c
+fortran/lapack/dlasq5.f	copy	lapack-f	Netlib LAPACK 3.12.1	lapack-3.12.1/SRC/dlasq5.f	a3eec40cff9417b351f1aa6e7c9fc8d0a669a7ed286f1accc471d53951ba2000	-	a3eec40cff9417b351f1aa6e7c9fc8d0a669a7ed286f1accc471d53951ba2000
+fortran/lapack/dlasq6.f	copy	lapack-f	Netlib LAPACK 3.12.1	lapack-3.12.1/SRC/dlasq6.f	0413d5d7478ffa114f3e09a5dc564c8956d3f3e71e4c6ac45ec9c19eae7e2e80	-	0413d5d7478ffa114f3e09a5dc564c8956d3f3e71e4c6ac45ec9c19eae7e2e80
+fortran/lapack/dlasr.f	copy	lapack-f	Netlib LAPACK 3.12.1	lapack-3.12.1/SRC/dlasr.f	14581c9f0a17a21144408719b0362240cc69d948357824f0c7252d408bcd7ffb	-	14581c9f0a17a21144408719b0362240cc69d948357824f0c7252d408bcd7ffb
+fortran/lapack/dlasrt.f	copy	lapack-f	Netlib LAPACK 3.12.1	lapack-3.12.1/SRC/dlasrt.f	8dca73c61cd8b606822883e9aaf147485c01a77bafc0ffb72c38dbd5d6c3b4c8	-	8dca73c61cd8b606822883e9aaf147485c01a77bafc0ffb72c38dbd5d6c3b4c8
+fortran/lapack/dlassq.f90	copy	lapack-f	Netlib LAPACK 3.12.1	lapack-3.12.1/SRC/dlassq.f90	84cd1d0035b3b82374f8a591fce1a2a4a7ef7a11e57cae15a84a22de5738a3d5	-	84cd1d0035b3b82374f8a591fce1a2a4a7ef7a11e57cae15a84a22de5738a3d5
+fortran/lapack/dlaswp.f	copy	lapack-f	Netlib LAPACK 3.12.1	lapack-3.12.1/SRC/dlaswp.f	8f50f034f7c1c075db12dcb277e743fdd4938d788fde864a1adcca70fedbc102	-	8f50f034f7c1c075db12dcb277e743fdd4938d788fde864a1adcca70fedbc102
+fortran/lapack/dlasyf.f	copy	lapack-f	Netlib LAPACK 3.12.1	lapack-3.12.1/SRC/dlasyf.f	0a49132db8d0fc2b68b54c95972e0504c626921a061524cbdf44e3a1d16fc270	-	0a49132db8d0fc2b68b54c95972e0504c626921a061524cbdf44e3a1d16fc270
+fortran/lapack/dlatrd.f	copy	lapack-f	Netlib LAPACK 3.12.1	lapack-3.12.1/SRC/dlatrd.f	30e9e78fbcbe88c3292a55eec060877eba296047bded41ca5e11ed31b8b0c7d4	-	30e9e78fbcbe88c3292a55eec060877eba296047bded41ca5e11ed31b8b0c7d4
+fortran/lapack/dorg2l.f	copy	lapack-f	Netlib LAPACK 3.12.1	lapack-3.12.1/SRC/dorg2l.f	e0c0c260877b5901306a06a62873c8dd459f535f914c957b9c26b9d5a8c0b20b	-	e0c0c260877b5901306a06a62873c8dd459f535f914c957b9c26b9d5a8c0b20b
+fortran/lapack/dorg2r.f	copy	lapack-f	Netlib LAPACK 3.12.1	lapack-3.12.1/SRC/dorg2r.f	15b212557a43409d7f31a55473052054f0f5da9840ee3f7c32c90ded4072ede2	-	15b212557a43409d7f31a55473052054f0f5da9840ee3f7c32c90ded4072ede2
+fortran/lapack/dorgql.f	copy	lapack-f	Netlib LAPACK 3.12.1	lapack-3.12.1/SRC/dorgql.f	f5ce6eeba79451e0e65a46d36c41c43b27f7ff1c6c514b4be3cd82d21ac5681a	-	f5ce6eeba79451e0e65a46d36c41c43b27f7ff1c6c514b4be3cd82d21ac5681a
+fortran/lapack/dorgqr.f	copy	lapack-f	Netlib LAPACK 3.12.1	lapack-3.12.1/SRC/dorgqr.f	a7273d4dd708e220f20d32c003c543fd7f63c25cb31864cb5158e2a937577868	-	a7273d4dd708e220f20d32c003c543fd7f63c25cb31864cb5158e2a937577868
+fortran/lapack/dorgtr.f	copy	lapack-f	Netlib LAPACK 3.12.1	lapack-3.12.1/SRC/dorgtr.f	f79999c37c0d06a15786d262b70cb4979fdf89a9d3f1913d263dca0e48874b19	-	f79999c37c0d06a15786d262b70cb4979fdf89a9d3f1913d263dca0e48874b19
+fortran/lapack/dorm2l.f	copy	lapack-f	Netlib LAPACK 3.12.1	lapack-3.12.1/SRC/dorm2l.f	970ea33ab4dc97d6be0c6b069d7809d1a110d9c474883c5f65dc7f3d33ea84cb	-	970ea33ab4dc97d6be0c6b069d7809d1a110d9c474883c5f65dc7f3d33ea84cb
+fortran/lapack/dorm2r.f	copy	lapack-f	Netlib LAPACK 3.12.1	lapack-3.12.1/SRC/dorm2r.f	aa710e75be766dd3500b971808568ec9af3f32cbb0333bceb09c47d3975a83bb	-	aa710e75be766dd3500b971808568ec9af3f32cbb0333bceb09c47d3975a83bb
+fortran/lapack/dormql.f	copy	lapack-f	Netlib LAPACK 3.12.1	lapack-3.12.1/SRC/dormql.f	0ed81f6f5dd47cd967aeb6839016abf401e3be156567751963e08a7ffc4e3141	-	0ed81f6f5dd47cd967aeb6839016abf401e3be156567751963e08a7ffc4e3141
+fortran/lapack/dormqr.f	copy	lapack-f	Netlib LAPACK 3.12.1	lapack-3.12.1/SRC/dormqr.f	f5c8ed4013d774dba861b4de0cc3407e3e413a55a03ec76c5d9be611abcafb2d	-	f5c8ed4013d774dba861b4de0cc3407e3e413a55a03ec76c5d9be611abcafb2d
+fortran/lapack/dormtr.f	copy	lapack-f	Netlib LAPACK 3.12.1	lapack-3.12.1/SRC/dormtr.f	ae9f43402a8845379df1673a9b814c5f93c524e52532707c5b230c5cbc79e2ba	-	ae9f43402a8845379df1673a9b814c5f93c524e52532707c5b230c5cbc79e2ba
+fortran/lapack/dpotrf.f	copy	lapack-f	Netlib LAPACK 3.12.1	lapack-3.12.1/SRC/dpotrf.f	ea50dbb7c75ca65c4e388ec63b00bc0f3ebbaf9d8d358644d727319007df972a	-	ea50dbb7c75ca65c4e388ec63b00bc0f3ebbaf9d8d358644d727319007df972a
+fortran/lapack/dpotrf2.f	copy	lapack-f	Netlib LAPACK 3.12.1	lapack-3.12.1/SRC/dpotrf2.f	866a944aea7a230419e02e40f8d8d0d5836b86a057cce060cd9c6503c37dcc38	-	866a944aea7a230419e02e40f8d8d0d5836b86a057cce060cd9c6503c37dcc38
+fortran/lapack/dpotrs.f	copy	lapack-f	Netlib LAPACK 3.12.1	lapack-3.12.1/SRC/dpotrs.f	776b8ffea1b29793dfd342f14695a5d331f312808f6df5abf0497a2e57d05bc5	-	776b8ffea1b29793dfd342f14695a5d331f312808f6df5abf0497a2e57d05bc5
+fortran/lapack/dstebz.f	copy	lapack-f	Netlib LAPACK 3.12.1	lapack-3.12.1/SRC/dstebz.f	fd76bca6d765536f004b08c0a2a24eea72117539389d9363591df8073c32a850	-	fd76bca6d765536f004b08c0a2a24eea72117539389d9363591df8073c32a850
+fortran/lapack/dstein.f	copy	lapack-f	Netlib LAPACK 3.12.1	lapack-3.12.1/SRC/dstein.f	bcd71a73f6bb25a2ee10609e270a28d52ee5996c805b10bf7a8ffa3f90d25437	-	bcd71a73f6bb25a2ee10609e270a28d52ee5996c805b10bf7a8ffa3f90d25437
+fortran/lapack/dstemr.f	copy	lapack-f	Netlib LAPACK 3.12.1	lapack-3.12.1/SRC/dstemr.f	b55bca129a5c559ca68f40df37595ddcbb16e1cc725a8711151bb6fdb026013e	-	b55bca129a5c559ca68f40df37595ddcbb16e1cc725a8711151bb6fdb026013e
+fortran/lapack/dsteqr.f	copy	lapack-f	Netlib LAPACK 3.12.1	lapack-3.12.1/SRC/dsteqr.f	b7217ddd5638195b6800faeeb582d8751d7a82513e45adb0246625947e1a8605	-	b7217ddd5638195b6800faeeb582d8751d7a82513e45adb0246625947e1a8605
+fortran/lapack/dsterf.f	copy	lapack-f	Netlib LAPACK 3.12.1	lapack-3.12.1/SRC/dsterf.f	4c5c6b2c445299eb8b6ef40c669dca01c926d5607330557798bc1145a89044e5	-	4c5c6b2c445299eb8b6ef40c669dca01c926d5607330557798bc1145a89044e5
+fortran/lapack/dsyev.f	copy	lapack-f	Netlib LAPACK 3.12.1	lapack-3.12.1/SRC/dsyev.f	39bb4e6841c1bc8c2c9225f28da7ada66095de2f1ffd96d0395db3c2c8eac6c6	-	39bb4e6841c1bc8c2c9225f28da7ada66095de2f1ffd96d0395db3c2c8eac6c6
+fortran/lapack/dsyevr.f	copy	lapack-f	Netlib LAPACK 3.12.1	lapack-3.12.1/SRC/dsyevr.f	49ce9833be4d1ad1dcf09f05716497e665e38fbd24d776387d64e23ba84140ba	-	49ce9833be4d1ad1dcf09f05716497e665e38fbd24d776387d64e23ba84140ba
+fortran/lapack/dsytd2.f	copy	lapack-f	Netlib LAPACK 3.12.1	lapack-3.12.1/SRC/dsytd2.f	89372c3ebf336b5d8864f0bff69c54a811e99c512b1b45546dd991a05eff08f1	-	89372c3ebf336b5d8864f0bff69c54a811e99c512b1b45546dd991a05eff08f1
+fortran/lapack/dsytf2.f	copy	lapack-f	Netlib LAPACK 3.12.1	lapack-3.12.1/SRC/dsytf2.f	60ad3adf9d40d538301a576875a5772fb9fbccfdebc37de1be69581cc7cbbeb8	-	60ad3adf9d40d538301a576875a5772fb9fbccfdebc37de1be69581cc7cbbeb8
+fortran/lapack/dsytrd.f	copy	lapack-f	Netlib LAPACK 3.12.1	lapack-3.12.1/SRC/dsytrd.f	7b008b9afa2952872bedc37cc12ceff87e2934dd60ff5f62edcd557d4d5faa36	-	7b008b9afa2952872bedc37cc12ceff87e2934dd60ff5f62edcd557d4d5faa36
+fortran/lapack/dsytrf.f	copy	lapack-f	Netlib LAPACK 3.12.1	lapack-3.12.1/SRC/dsytrf.f	2948942de97dc3628fc5579a470d61c577e14f6249d9de6ea88fdbc01ccf9d0f	-	2948942de97dc3628fc5579a470d61c577e14f6249d9de6ea88fdbc01ccf9d0f
+fortran/lapack/dtrtrs.f	copy	lapack-f	Netlib LAPACK 3.12.1	lapack-3.12.1/SRC/dtrtrs.f	b7a90b92b6f03fad832a8481cdce34713f368f5972f13d5f0f7f7c8b37101a45	-	b7a90b92b6f03fad832a8481cdce34713f368f5972f13d5f0f7f7c8b37101a45
+fortran/lapack/ieeeck.f	copy	lapack-f	Netlib LAPACK 3.12.1	lapack-3.12.1/SRC/ieeeck.f	5680e4847bb6bfaaf6ccba18a240f8b64be2d9cebf0bad8ffad6fcf867dcc3c2	-	5680e4847bb6bfaaf6ccba18a240f8b64be2d9cebf0bad8ffad6fcf867dcc3c2
+fortran/lapack/iladlc.f	copy	lapack-f	Netlib LAPACK 3.12.1	lapack-3.12.1/SRC/iladlc.f	48d06e17c656c37a50e223634d188ecab415fac39f3f3e21cecf929b1fc10fab	-	48d06e17c656c37a50e223634d188ecab415fac39f3f3e21cecf929b1fc10fab
+fortran/lapack/iladlr.f	copy	lapack-f	Netlib LAPACK 3.12.1	lapack-3.12.1/SRC/iladlr.f	0f3f0ed30ba918673589cdb963f23719903b91b6e1ac0e1e4535fd978502d003	-	0f3f0ed30ba918673589cdb963f23719903b91b6e1ac0e1e4535fd978502d003
+fortran/lapack/ilaenv.f	copy	lapack-f	Netlib LAPACK 3.12.1	lapack-3.12.1/SRC/ilaenv.f	39638f3650b9b342a47e8dfc2bc67b606f51fff6bcbe2d5eb7f8205fee4582ba	-	39638f3650b9b342a47e8dfc2bc67b606f51fff6bcbe2d5eb7f8205fee4582ba
+fortran/lapack/iparmq.f	copy	lapack-f	Netlib LAPACK 3.12.1	lapack-3.12.1/SRC/iparmq.f	21899be95170338c6c217508261387c49ce81d88e4a13d87534de4abf36724e5	-	21899be95170338c6c217508261387c49ce81d88e4a13d87534de4abf36724e5
+fortran/lapack/la_constants.f90	copy	lapack-f	Netlib LAPACK 3.12.1	lapack-3.12.1/SRC/la_constants.f90	1d9bdd0fad20e76f6c418b0d5405aa7a256d89cfe57eba2a36a9c301c5ce7d1b	-	1d9bdd0fad20e76f6c418b0d5405aa7a256d89cfe57eba2a36a9c301c5ce7d1b
+fortran/lapack/la_xisnan.F90	copy	lapack-f	Netlib LAPACK 3.12.1	lapack-3.12.1/SRC/la_xisnan.F90	99708155c08c456f1622b0892acca71bbc925e10ca1f71e9e343e343b9c01657	-	99708155c08c456f1622b0892acca71bbc925e10ca1f71e9e343e343b9c01657
+include/rapi.h	generated	header	generated	tools/vendor_sources.py	-	-	261b393d4df41438404eed8af09522c8d180b66cb072e52b90d915c586ab4e0b
+include/rapi.h	block	-	R include/R.h	27-29	1bbe961dbb385066de89d4b356b44a8c66029bd1f74d84e5f221ff507a82d50a	-	-
+include/rapi.h	block	-	R include/R.h	32-34	7980b263955667aa057777a5e901af68aef099b1e16b22bad952dd0feec150a6	-	-
+include/rapi.h	block	-	R include/R.h	38-46	bae9191745c9482e79239f21bb5a30f722ca6bfce685715e475fe6b881b499fe	-	-
+include/rapi.h	block	-	R include/Rconfig.h	1-37	8e1b75511b8d3a3d16a80e885971b16a396ea537691b9a2e371248da16bbd5bd	-	-
+include/rapi.h	block	-	R include/R_ext/libextern.h	1-51	e78fae0fb12b0187b72242aadac41e37d0aa7821d3112a9a1f9322328fdfd6b6	-	-
+include/rapi.h	block	-	R include/R_ext/Boolean.h	1-86	cf8c0f0094c4b34e3113cc2bc33e590b092226cf01fa1986a82f43b6bc7c4bfd	-	-
+include/rapi.h	block	-	R include/R_ext/Arith.h	1-91	c6a439fe21cf15e40a619f86c67f688e2282b667bf5c773614e409458531ea07	-	-
+include/rapi.h	block	-	R include/R_ext/Print.h	1-78	ae29664c55f658e25a7a45b5b9a04964d83b43cc400936ae0d9f176c3f97d473	-	-
+include/rapi.h	block	-	R include/R_ext/Error.h	1-93	c5449123cef53d4d1f2432cf9e7b86bf752287e8ca730808e2009143d3c529f8	-	-
+include/rapi.h	block	-	R include/R_ext/RS.h	1-115	11ba1d4a4ba8335983a498c9a6ccf3ced88664db24c8f0c897bf02bea55525ea	-	-
+include/rapi.h	block	-	R include/R_ext/Complex.h	1-98	f004ee49404358599ce1ab62096c4bf9c135cc2bab91fd0d347372ba94062c3c	-	-
+include/rapi.h	block	-	R include/R_ext/Constants.h	1-58	4e7c55ec77d6cd5b0dfa14e531f0ef00f37e53327a9c569e374fe5cd06480685	-	-
+include/rapi.h	block	-	R include/R_ext/Memory.h	1-65	e176ba409ba005f66a8ae7877c85f14a45b942747e5bae38ee9e9d350ee7cc3a	-	-
+include/rapi.h	block	-	R include/R_ext/Random.h	1-84	1fc0e824be48ca9c39664f412d94588fc6ecf1e435e564315b18e8fbb2053d32	-	-
+include/rapi.h	block	-	R include/R_ext/Utils.h	1-145	b8879576cab015083a2f0b6f6243b9bc85ae1783ba05f66d4e0957655c4c44cf	-	-
+include/rapi.h	block	-	R include/R_ext/Rdynload.h	1-124	ff596f0e45385620efd97eab44ea30e9e75eb89d3d6e6a43b2aad944d97824ef	-	-
+include/rapi.h	block	-	R include/Rinternals.h	33-41	1f0fd0eeff7f4684896a56ed8e827f3f93b30a6dcc0f1da1d490afac91636570	-	-
+include/rapi.h	block	-	R include/Rinternals.h	67-67	59a121a03c31a101b947c90c63c80c09d636d267ec3f09db0409cd1ef7a4a5a7	-	-
+include/rapi.h	block	-	R include/Rinternals.h	68-68	8ccd70f39075c3d8c78a1b24a165b95d9feb68d01045cca1eec43ec2278f4ee1	-	-
+include/rapi.h	block	-	R include/Rinternals.h	70-72	5111b80483e5a4d787d8b0532f0619b03ad3f3005bd3a3b6008b290d7b794eed	-	-
+include/rapi.h	block	-	R include/Rinternals.h	74-83	97b34f0906862456648602a2d665321f1e4a730d2c4eaae821a49429ef584dad	-	-
+include/rapi.h	block	-	R include/Rinternals.h	121-121	8849f4f169371bdd7b66e0f46989f452ddc60c9114a100dffc3f5a483982046f	-	-
+include/rapi.h	block	-	R include/Rinternals.h	123-123	ced16aa4ba70d127818535a77a0e3a8568428fbe62ad4f8087249a3170dc210b	-	-
+include/rapi.h	block	-	R include/Rinternals.h	124-124	d86efc0abbb1b81a97829b31afdc275059583c021fe5d203e5d0be6a245b8d87	-	-
+include/rapi.h	block	-	R include/Rinternals.h	186-186	2701ab02ab8968c2ef8fe4caaebbfb77dc746bf375ba7e2576241c6d7b2a43cd	-	-
+include/rapi.h	block	-	R include/Rinternals.h	261-261	498e33d73d827be8c0cb23778ce3d2af40a11fb6f199820a07e3c87bddcf3f10	-	-
+include/rapi.h	block	-	R include/Rinternals.h	275-275	e52dcd7da91180b6ef28d4315b165478c74d5e698c8f266c2d5917d4a89803fa	-	-
+include/rapi.h	block	-	R include/Rinternals.h	277-277	c44d11cc90ca0b40dc67ef83a707f1bf7fb83335d9e8a4c1c87d8bbf6c0f4ec4	-	-
+include/rapi.h	block	-	R include/Rinternals.h	401-401	11a74a550594e87fc1cd18bea85b5eea2d8f4a6de7f96f641998bb2ae5b133b6	-	-
+include/rapi.h	block	-	R include/Rinternals.h	451-451	c8c725b23de8279c3b874cdbe1b6aa8dfc463f61cc73ca6a83b5bb0f5008a6c5	-	-
+include/rapi.h	block	-	R include/Rinternals.h	499-499	b00558e583732aec2bff083c1e2a9452072839dd296b744014f944869cd50a13	-	-
+include/rapi.h	block	-	R include/Rinternals.h	508-508	567864aab905661318c3ff6b82abf47ca13a298eb7a3b9063921e2210961b860	-	-
+include/rapi.h	block	-	R include/Rinternals.h	860-860	af5c2c033388a0a83a07d97ccff7453f9a5b463430ddc5d6810550030b4b460e	-	-
+include/rapi.h	block	-	R include/Rinternals.h	886-886	90c1b420af7e54eeca67e408f3db556e126b74f9ea22160a5b8a23a17703fe37	-	-
+include/rapi.h	block	-	R include/Rinternals.h	924-924	a77a5f6e4654840489c3745c064f3ca93020b94b7d6d3a74dee216ac672e5457	-	-
+include/rapi.h	block	-	R include/Rinternals.h	934-934	7565e9ce03584312c20aa7a7edcca07c1f1be830af61160193fb441ca8cb846f	-	-
+include/rapi.h	block	-	R include/R_ext/Visibility.h	1-43	230bb0cedbe7f7223ecd83859fe7f677ffcab98e380c5229671f7f009f4f2444	-	-
+include/rapi.h	block	-	R-4.6.1/src/include/Defn.h	2513-2531	4cd26da21eab3703b7ecb4815026441dde14e24d3a8008558428af33385f28c3	-	-
+include/rapi.h	block	-	R-4.6.1/src/include/Defn.h	2567-2571	c26ee6cc280bc452f662e59782c97bc2f673617dc6727241a263e487ee7debd4	-	-
+include/rapi.h	block	-	R-4.6.1/src/include/Defn.h	2186-2186	2c79dc67c4d427a1fdb61e56cdc589e389344356eff3d1c153d80750583bf819	-	-
+include/rapi.h	block	-	R-4.6.1/src/main/arithmetic.h	34-34	c66637ccd45f0a80a735de4b06659b27013b1755a996f8f0ed54942869d73886	-	-
+include/rapi.h	block	-	R-4.6.1/src/main/arithmetic.h	35-38	6628f7e75577832aed7c92fe68d38d1824b3044cfe424292f3053133c415be78	-	-
+include/rmath.h	generated	header	generated	tools/vendor_sources.py	-	-	0dcab39a4c7e3dbdec9d06a4085ba19ee188dbd0ff14c1345ddb07bd102796a9
+include/rmath.h	block	-	R include/Rmath.h	1-829	ae454bff52f3229693539e2877d1e9fbab907b8ce825a5b440c452fd9b3822aa	-	-
+include/nmath.h	generated	header	generated	tools/vendor_sources.py	-	-	b9b4907b2ffba3e1ded6d7757845a21fa50671a468e391f5354f8066ad5b6d99
+include/nmath.h	block	-	R-4.6.1/src/nmath/nmath.h	1-238	bb1e0e662d5421bb4a0bf55db8c12f8fa8b6029219ef516a66c38fbee193f85a	-	-
+include/nmath.h	block	-	R-4.6.1/src/nmath/dpq.h	1-128	a0866cd69535bd1d2c6cc8a03f9e98be4d66a4367d3da08e1c4a88b026c3b922	-	-
+include/linalg.h	generated	header	generated	tools/vendor_sources.py	-	-	f920fce68348b7496bf57d39bc903590b9c76f6ad90616600271e3fa06eb71a8
+include/linalg.h	block	-	R include/R_ext/BLAS.h	1-476	41f54f67a8a6dcae3c37c9add093fecbb72c9ba2bc238b51a3f1d20669efee71	-	-
+include/linalg.h	block	-	R include/R_ext/Lapack.h	1-3592	4bccb69dfe788ba0e8c6cc9867d85ed0fc9543685f422afac9b0adede3225439	-	-
+include/linalg.h	block	-	R include/R_ext/Applic.h	1-159	24e0aafb7557f9baabdb55f491395158d1a044d1330ba32a97d9b3f9c9e35e92	-	-
+include/helper.h	generated	header	generated	tools/vendor_sources.py	-	-	994de451b513f7a39046b5f87d33f339bc327d530de7a8e8312da920f2188999
+include/helper.h	block	-	edgeR src/edgeR.h	1-205	9e00b58ca8df51f1a73e244fffaa33f922157a4e3f88f0c5e43f8fe54d3b3a78	-	-
+include/helper.h	block	-	edgeR src/edgeR.h	208-209	b0b5e7e51a115500122e97c61f913f58bfe13ebb5712bf6889d10f70931ccb4e	-	-
+include/helper.h	block	-	edgeR src/edgeR.h	211-269	740fcb96c31a41024a45d805073ffe0dfe7bab69e5841b89e6d181fb10edffa6	-	-
+include/helper.h	block	-	edgeR src/edgeR.h	271-299	15c9bd0a233125a3aa9fd93eaa7f4b64b1510a505fb3668ec598175371a0d66e	-	-
+include/helper.h	block	-	edgeR src/edgeR.h	301-312	3c8644a6874bc581ee3bc45c727cb9f71d73f1ead30be906ab88f78384c37063	-	-
+include/helper.h	block	-	edgeR src/edgeR.h	314-322	da7102c5d8a490316238271146a1fc2ebff4366c6ea8dc781c5dd32794451963	-	-
+include/helper.h	block	-	edgeR src/edgeR.h	324-340	412aebe30e6d10fb74bdc89ff324cf9c5dae6fe87e1390b6d06f47ed06170342	-	-
+include/helper.h	block	-	edgeR src/edgeR.h	342-343	e9f5c69411e211a4dddcc3ceadfdef1e3a1d4210868397ab811b940f89fb1715	-	-
+include/helper.h	block	-	edgeR src/edgeR.h	345-391	a275e812dfb1a168c89ad7a7ef0febd8303d61dfb23977e9af66aabf1f31cd40	-	-
+include/helper.h	block	-	edgeR src/edgeR.h	393-394	2d2322492d971db6d294cbf8c9ea88ae673c379c976b574e0254a1f7c7a3a9a8	-	-
+include/helper.h	block	-	edgeR src/edgeR.h	396-400	8aa362e7870573df756ec92dfc81671976f9c2d01fd4b1ecd5a205d99dc5f2ab	-	-
+include/helper.h	block	-	edgeR src/edgeR.h	402-405	407deaa5c2786a4e461dcfd7443ba5a9ea32b2464d80cedfbd5cd4f10a5fbc99	-	-
+include/helper.h	block	-	limma src/limma.h	81-88	a3185354dd073c327ac2b283d49f99b262fac2d1743db574f20a796ee12fbd6c	-	-
+include/helper.h	block	-	limma src/limma.h	110-110	c1f15ccd724ebd2c84ceb821061e69357062a71f258802fe02cb2dcfa85e038e	-	-
+include/helper.h	block	-	edgeR src/edgeR.h	407-407	9a349bbd1a21104f051e34b2c8a9e70cc7fbb50bc19a67781f2a140c386d9438	-	-
+include/edgerpy.h	generated	header	generated	tools/vendor_sources.py	-	-	ce138b19dcff78556a7193e57641ff7836b22f67a1df0b95638c88e25959bd22
+include/edgerpy.h	block	-	edgeR src/edgeR.h	206-206	3fd8d2d0ac7010041b93803d7fef107ad3296697f56e129de134dc83cd690f85	-	-
+include/edgerpy.h	block	-	edgeR src/edgeR.h	207-207	0f4ad412b3a0251903b7f3921d6a0b00762e4e9231f92d6e880f3c65ddcc02d3	-	-
+include/edgerpy.h	block	-	edgeR src/edgeR.h	210-210	5768d62d1a7de293b9c7ec2c601bbfa132bd15fcf8ee2fe2bdaaafdece9d8d04	-	-
+include/edgerpy.h	block	-	edgeR src/edgeR.h	270-270	dce04b44e8c695d314fc8237d6cc568db05fa670e93b8142daa113882b94fa74	-	-
+include/edgerpy.h	block	-	edgeR src/edgeR.h	300-300	df9e459bf56ebb772996bfa996e7d7b158f10f0267de5a1ecddc3c54b8b6bcf5	-	-
+include/edgerpy.h	block	-	edgeR src/edgeR.h	313-313	6bf5839a1a73fdf3d962ab1cee40c3cdc6fb3554b4bbe28a90fc3efdd6ca465e	-	-
+include/edgerpy.h	block	-	edgeR src/edgeR.h	323-323	f83751e6cd1414f5846c0a0e755f9b054f2b69fb5a460bd4b44a28a101631aef	-	-
+include/edgerpy.h	block	-	edgeR src/edgeR.h	341-341	69f164dc4e737116d1274eb83c9de308e0e06a5a5f77e7f48faf6cb40a47be8a	-	-
+include/edgerpy.h	block	-	edgeR src/edgeR.h	344-344	5d12dcdcb716f942e006516b9bdc7763c3b808a2f196f00fc3b2426b98fe4b1e	-	-
+include/edgerpy.h	block	-	edgeR src/edgeR.h	392-392	9c5107e31562a1d13bb22cdd50b9c54a79c5b2830122391f25969638aa9b70fe	-	-
+include/edgerpy.h	block	-	edgeR src/edgeR.h	395-395	dc2f38f30e2c21ae30c96dbe01aeae365cf33eb2986183f3b9bb642794961aaa	-	-
+include/edgerpy.h	block	-	edgeR src/edgeR.h	401-401	712c956bed4df2d9c4b251ea55240d854d462af353fd99b75e38ccecc5381507	-	-
+include/edgerpy.h	block	-	edgeR src/edgeR.h	406-406	54340a82896c5d65e6ce4c48943063b63ef719c1ea6dd5e2eeb3d1b0f1fa8f68	-	-
